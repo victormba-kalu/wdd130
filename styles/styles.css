@@ -67,3 +67,9 @@ footer {
     background-color: #ddd;
     color: #000;
 }
+
+aside h2 {
+    position: absolute;
+    top: 612px;
+    left: 140px;
+}
