@@ -34,35 +34,48 @@ p {
 .sociallinks a {
     text-decoration: none;
 }
+.hero {
+    position: relative;
+}
 
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
 }
 
-.hero h1 {
+
+.heading_on_image {
     position: absolute;
-    top: 250px;
-    left: 200px;
+    top: 10px;
+    width: 100%;
     color: var(--accent2-color);
-}
+    text-align: center;
+    background-color: rgba(12, 12, 12, 0.8);
 
+}
 .hero article {
+    width: 800px;
+    height: auto;
     position: absolute;
-    top: 300px;
-    left: 200px;
+    top: 70px;
+    left: 250px;
+    background-color: rgba(24, 48, 89, 0.7);
+    padding: 5px;
+    
+}
+
+.hero article p {
     color: var(--accent2-color);
-    border-color: black;
 }
 
 .hero article img {
-    width: 200px;
+    width: 300px;
     height: auto;
-    position: absolute;
-    top: 300px;
-    left: 200px;
     float: right;
 
+}
+
+main section {
+    margin: 10px;
 }
