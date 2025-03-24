@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #183059;
+    --secondary-color: #20508C;
+    --accent1-color: #276FBF;
+    --accent2-color: #FAF8F7;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
