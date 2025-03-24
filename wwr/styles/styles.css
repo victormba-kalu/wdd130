@@ -11,6 +11,25 @@
     --accent2-color: #FAF8F7;
 }
 
+h1 {
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+h3 {
+    color: var(--accent1-color);
+}
+
+h4 {
+    color: var(--accent2-color);
+}
+
+p {
+    color: var(--primary-color);
+}
 .sociallinks a {
     text-decoration: none;
 }
