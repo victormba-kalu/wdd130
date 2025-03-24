@@ -30,6 +30,13 @@ h4 {
 p {
     color: var(--primary-color);
 }
+
 .sociallinks a {
     text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
