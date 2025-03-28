@@ -59,19 +59,20 @@ main {
 
 }
 
-/* Alternatively, grid-template-column could be used like so: 
+/* Css comments are messy. Never do multiple line comments. They'll break your code
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal columns */
-}
-/*
-.element1 {
-  grid-column: 2; /* Place element1 in the second column */
-}
-/*
-.element2 {
-  grid-column: 1; /* Place element2 in the first column 
-} */
+    display: grid; */
+   /* grid-template-columns: 1fr 1fr;}*/ /* Two equal columns */
+
+  /*
+  .element1 {
+    grid-column: 2;}*/ /* Place element1 in the second column */
+  
+  /*
+  .element2 {
+    grid-column: 1;}*/ /* Place element2 in the first column */
+
+
 
 aside {
     width: 20rem;
