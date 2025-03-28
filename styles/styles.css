@@ -28,6 +28,8 @@ nav a {
 h1 {
     color: darkblue;
     border-bottom: 2px solid steelblue;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 main img {
