@@ -17,10 +17,38 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
+header {
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
 
+}
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
 
+    
 
+}
+
+nav a {
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--accent2-color); 
+    display: block;
+    border: 1px solid black;
+    padding: auto;
+    
+   
+   
+}
 
 p {
     color: var(--primary-color);
