@@ -36,8 +36,9 @@ p {
     padding: 0;
 }
 
-main {
+header, footer {
     max-width: 840px;
+    margin: 0 auto;
 }
 
 aside {
@@ -78,3 +79,4 @@ aside h2 {
     top: 25px;
     left: 125px;
 }
+
