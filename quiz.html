@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 130 | HTML Form - Quiz Form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <input type="checkbox" id="mycheckbox" name="mycheckbox" checked>
+            <h1>Basic HTML and CSS Quiz</h1>
+
+        </header>
+        <main>
+            <form>
+                <label for="q1"><span class="label-number">1. </span>What does the acronym CSS stand for?</label>
+                <input type="text" id="q1" name="q1">
+
+                <label for="q2"><span class="label-number">2. </span>How are the id and class attributes selected in CSS?</label>
+                <textarea id="q2" name="q2" rows="4"></textarea>
+
+                <label for="q3"><span class="label-number">3. </span>Which of the following is a valid CSS comment?</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose one ...</option>
+                    <option value="a">/* This is a comment */</option>
+                    <option value="b">// This is a comment</option>
+                    <option value="c"># This is a comment</option>
+                    <option value="d"> -- This is a comment -- </option>
+                </select>
+
+                <label for="q4"><span class="label-number">4. </span>What is the bottom margin given this declaration?</label>
+                <p>margin: &nbsp; &nbsp; 10px &nbsp; 5px &nbsp; 15px;</p>
+                <input type="number" id="q4" name="q4">
+
+                <button type="submit">Submit Quiz</button>
+            </form>
+
+        </main>
+        <footer>
+            <p>&copy; 2025 | HTML Form - User Quiz | Victor Mba</p>
+
+        </footer>
+
+    </body>
+
+</html>
