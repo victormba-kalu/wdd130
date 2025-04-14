@@ -84,6 +84,12 @@ p {
     margin: 0;
 
 }
+
+.splash-header {
+    color: var(--accent2-color);
+    text-align: center;
+    background-color: var(--secondary-color);
+}
 .hero article {
     width: auto;
     height: auto;
