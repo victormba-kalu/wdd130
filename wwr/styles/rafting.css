@@ -381,7 +381,13 @@ footer p, .sociallinks {
     text-align: center;
   }
 
-
+.wireframe {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+}
   .sociallinks {
     justify-self: end; 
     margin-right: 100px;
