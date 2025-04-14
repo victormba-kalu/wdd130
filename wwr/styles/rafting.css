@@ -176,14 +176,6 @@ figcaption {
   }
   
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    align-items: center;
-    justify-content: center;
-    
-}
 
 
 
@@ -371,6 +363,15 @@ button:hover {
 }
 
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    
+}
 
   
 footer p, .sociallinks {
@@ -387,6 +388,8 @@ footer p, .sociallinks {
     text-align: center;
     text-decoration: none;
     font-style: italic;
+    margin: 0;
+    padding: 0;
 }
   .sociallinks {
     justify-self: end; 
