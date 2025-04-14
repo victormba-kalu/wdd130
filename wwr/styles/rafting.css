@@ -321,6 +321,10 @@ label {
 .map, .company-info{
     height: 350px;
 }
+iframe {
+    width: 100%;
+    height: 350px;
+}
 .map, iframe {
     border: none;
     margin: 0;
